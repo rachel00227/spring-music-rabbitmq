@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-music-rabbitmq
+  memory: 1G
+  random-route: true
+  path: build/libs/spring-music.jar
+  timeout: 180
+
